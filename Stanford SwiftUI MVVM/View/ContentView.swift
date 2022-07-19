@@ -37,6 +37,8 @@ struct CardView: View {
                 shape.fill().foregroundColor(.white)
                 shape.strokeBorder(lineWidth: 3)
                 Text(card.content).font(.largeTitle)
+            } else if card.isMatched {
+                shape.opacity(0)
             } else {
                 shape.fill()
             }
@@ -50,7 +52,7 @@ struct ContentView_Previews: PreviewProvider {
         let game = EmojiMemoryGame()
         ContentView(viewModel: game)
             .preferredColorScheme(.light)
-        ContentView(viewModel: game)
-            .preferredColorScheme(.dark)
+//        ContentView(viewModel: game)
+//            .preferredColorScheme(.dark)
     }
 }
