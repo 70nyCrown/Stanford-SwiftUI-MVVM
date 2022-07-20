@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		127AB0542886C85D001C7880 /* Stanford_SwiftUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB0532886C85D001C7880 /* Stanford_SwiftUI_MVVMApp.swift */; };
-		127AB0562886C85D001C7880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB0552886C85D001C7880 /* ContentView.swift */; };
+		127AB0562886C85D001C7880 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB0552886C85D001C7880 /* EmojiMemoryGameView.swift */; };
 		127AB0582886C866001C7880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127AB0572886C866001C7880 /* Assets.xcassets */; };
 		127AB05B2886C866001C7880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127AB05A2886C866001C7880 /* Preview Assets.xcassets */; };
 		127AB0632886D03D001C7880 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB0622886D03D001C7880 /* MemoryGame.swift */; };
 		127AB0682886D1E3001C7880 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB0672886D1E3001C7880 /* EmojiMemoryGame.swift */; };
+		127AB06A28884F98001C7880 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB06928884F98001C7880 /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		127AB0502886C85D001C7880 /* Stanford SwiftUI MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stanford SwiftUI MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		127AB0532886C85D001C7880 /* Stanford_SwiftUI_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stanford_SwiftUI_MVVMApp.swift; sourceTree = "<group>"; };
-		127AB0552886C85D001C7880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		127AB0552886C85D001C7880 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		127AB0572886C866001C7880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		127AB05A2886C866001C7880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		127AB05C2886C866001C7880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		127AB0622886D03D001C7880 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		127AB0672886D1E3001C7880 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		127AB06928884F98001C7880 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 		127AB0652886D07B001C7880 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				127AB0552886C85D001C7880 /* ContentView.swift */,
+				127AB0552886C85D001C7880 /* EmojiMemoryGameView.swift */,
+				127AB06928884F98001C7880 /* AspectVGrid.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,8 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				127AB0632886D03D001C7880 /* MemoryGame.swift in Sources */,
-				127AB0562886C85D001C7880 /* ContentView.swift in Sources */,
+				127AB0562886C85D001C7880 /* EmojiMemoryGameView.swift in Sources */,
 				127AB0542886C85D001C7880 /* Stanford_SwiftUI_MVVMApp.swift in Sources */,
+				127AB06A28884F98001C7880 /* AspectVGrid.swift in Sources */,
 				127AB0682886D1E3001C7880 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
